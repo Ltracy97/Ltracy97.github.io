@@ -71,6 +71,8 @@
 		max-width:2048px;}
 	#homebut li {list-style-type: none;
 		display:inline;}
+	#Thanks {font-size: 3em;
+		text-align: center;}
 
 @media screen and (min-width:600px) and (max-width:949px) {
 	header img {display:flex;									/*Header img*/
@@ -130,6 +132,8 @@
 		color:  #FFFFFF;
 		max-width:2048px;}
 	#homebut li {list-style-type: none;}
+	#Thanks {font-size: 3em;
+		text-align: center;}
 	}
 
 @media screen and (max-width:599px) {
@@ -190,4 +194,6 @@
 		color:  #FFFFFF;
 		max-width:2048px;}
 	#homebut li {list-style-type: none;}
+	#Thanks {font-size: 3em;
+		text-align: center;}
 	}
