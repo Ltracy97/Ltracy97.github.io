@@ -14,7 +14,7 @@ window.onload = function() {
         }
         this.test = params;
 
-        emailjs.sendForm('service_rae4fbc', 'template_ufyro17', this)
+        emailjs.sendForm('service_x3jo2fj', 'template_ufyro17', this)
             .then(function() {
                 location.replace("https://ltracy97.github.io/Confirm.html");
             }, function(error) {
