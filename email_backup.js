@@ -18,7 +18,7 @@ window.onload = function() {
             .then(function() {
                 location.replace("https://ltracy97.github.io/Confirm.html");
             }, function(error) {
-                window.alert('FAILED...', );
+                window.alert('FAILED...', error );
             });
     });
 
