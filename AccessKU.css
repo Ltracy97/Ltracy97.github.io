@@ -1,0 +1,193 @@
+/*Kat Hooley-Lickteig 5/31/2022*/
+* {box-sizing: border-box;}
+	header img {display:flex;									/*Header img*/
+		margin:auto;
+		height: auto;
+		width: 100%;
+		max-width:100%;
+		height: auto;}
+	nav ul{ border-width:1px 0;							/*Nav menu placement*/
+	    list-style:none;
+	    margin:0;
+	    padding:0;
+		max-width:2048px;
+	    background-color: #0051ba;
+	    list-style-type: none;
+	    font-size: 48px;
+	    text-align:center;}
+	nav a {text-decoration: underline;
+		display:inline-block;
+	  padding:2px;}	
+	#head {background-color: #0051ba;						/* Everything that isn't header and footer */
+		margin-left:25px;
+		margin-right:25px;
+		text-align: left;
+		color:  #FFFFFF;
+		max-width:2048px;
+		overflow: auto;}
+	#wrapper {background-color: #0051ba;
+		margin-left:25px;
+		margin-right:25px;
+		text-align: left;
+		color:  #FFFFFF;
+		max-width:2048px;}
+	#head p {text-align:center;}
+	#head ul li {text-align: center;
+		list-style-position: inside;}
+	form p {text-align: left;}
+	body {background-color: #0051ba;							/* Whole page settings */
+		text-align: center;
+		overflow: auto;}
+	#columns {display:flex;
+		justify-content: space-around;
+		list-style-type: none;
+		margin: 0;
+		padding-left: 0;
+		font-size: 1.2em;
+		padding-bottom: 10px;}
+	footer {font-size: .75em;
+		text-align: center;
+		margin-top: 25px;
+		color: #FFFFFF;
+		overflow: auto;}
+	footer a:link {color: #FFFFFF;
+		padding-right: 5px;}
+	#homebut .nbutton {height:200px;
+	  	width:40%;
+	  	font-size: 48px;
+	  	border-radius: 30px;}
+	.FormCenter {display:flex;
+  		justify-content: center;}
+  	input[type="text"] {width: 100%;}
+  	input[type="email"] {width: 100%;}
+  	input[type="submit"] {height:40px;
+  		width: 100%;
+  		font-size: 2em;}
+  	textarea {width: 100%;}
+  	#homebut{background-color: #0051ba;
+		margin:auto;
+		text-align: center;
+		color:  #FFFFFF;
+		max-width:2048px;}
+	#homebut li {list-style-type: none;
+		display:inline;}
+
+@media screen and (min-width:600px) and (max-width:949px) {
+	header img {display:flex;									/*Header img*/
+		margin:auto;
+		height: auto;
+		width: 100%;
+		max-width:100%;
+		height: auto;}
+	nav ul {border-width:1px 0;							/*Nav menu placement*/
+    	list-style:none;
+    	margin:0;
+    	padding:0;
+		max-width:2048px;
+    	background-color: #0051ba;
+    	list-style-type: none;
+    	font-size: 48px;
+    	text-align:center;}
+	li a {padding:5px 10px;}
+	#head {background-color: #0051ba;						/* Everything that isn't header and footer */
+		margin-left:25px;
+		margin-right:25px;
+		text-align: left;
+		color:  #FFFFFF;
+		max-width:2048px;}
+	#wrapper {background-color: #0051ba;
+		margin-left:25px;
+		margin-right:25px;
+		text-align: left;
+		color:  #FFFFFF;
+		max-width:2048px;}
+	#head p {text-align:center;}
+	#head ul li {text-align: center;
+		list-style-position: inside;}
+	body {background-color: #0051ba;							/* Whole page settings */
+		text-align: center;}
+	footer {font-size: .75em;
+		text-align: center;
+		margin-top: 25px;
+		color: #FFFFFF;}
+	footer a:link {color: #FFFFFF;
+		padding-right: 5px;}
+	#homebut .nbutton {height:200px;
+	  	width:90%;
+	  	font-size: 48px;
+	  	border-radius: 30px;
+	  	padding: 10px 20px;
+    	margin: 10px;}
+    .FormCenter {display:flex;
+  		justify-content: center;}
+  	input[type="text"] {width: 100%;}
+  	input[type="email"] {width: 100%;}
+  	textarea {width: 100%;}
+  	#homebut{background-color: #0051ba;
+		margin-left:25px;
+		margin-right:25px;
+		text-align: left;
+		color:  #FFFFFF;
+		max-width:2048px;}
+	#homebut li {list-style-type: none;}
+	}
+
+@media screen and (max-width:599px) {
+	header img {display:flex;									/*Header img*/
+		margin:auto;
+		height: auto;
+		width: 100%;
+		max-width:100%;
+		height: auto;}
+	nav ul {border-width:1px 0;							/*Nav menu placement*/
+    		list-style:none;
+    		margin:0;
+    		padding:0;
+		max-width:2048px;
+    		background-color: #0051ba;
+    		list-style-type: none;
+    		font-size: 48px;
+    		text-align:center;}
+	li a {padding:5px 10px;}
+	#head {background-color: #0051ba;						/* Everything that isn't header and footer */
+		margin-left:25px;
+		margin-right:25px;
+		text-align: left;
+		color:  #FFFFFF;
+		max-width:2048px;}
+	#wrapper {background-color: #0051ba;
+		margin-left:25px;
+		margin-right:25px;
+		text-align: left;
+		color:  #FFFFFF;
+		max-width:2048px;}
+	#head p {text-align:center;}
+	#head ul li {text-align: center;
+		list-style-position: inside;}
+	body {background-color: #0051ba;							/* Whole page settings */
+		text-align: center;}
+	footer {font-size: .75em;
+		text-align: center;
+		margin-top: 25px;
+		color: #FFFFFF;}
+	footer a:link {color: #FFFFFF;
+		padding-right: 5px;}
+	#homebut .nbutton {height:200px;
+	  	width:90%;
+	  	font-size: 2em;
+	 	border-radius: 30px;
+	  	padding: 10px 20px;
+    	margin: 10px;}
+	.FormCenter {display:flex;
+  		justify-content: center;}
+  	input[type="text"] {width: 100%;}
+  	input[type="email"] {width: 100%;}
+  	textarea {width: 100%;}
+  	#homebut{background-color: #0051ba;
+		margin-left:25px;
+		margin-right:25px;
+		text-align: left;
+		color:  #FFFFFF;
+		max-width:2048px;}
+	#homebut li {list-style-type: none;}
+	}

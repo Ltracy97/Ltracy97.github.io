@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!-- Kat Hooley-Lickteig 4/14/2023 -->
+<html lang="en">
+   <head>
+      <title>KU Access</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="AccessKU.css">
+      <link rel="icon" type="image/x-icon" href="Images/favicon.jpg">
+   </head>
+   <body>
+      <div id="top-banner">
+         <header>
+           <a href="Index.html"><img src="Images/KU_bluelogo.jpg" alt="The University of Kansas"></a>
+         </header>
+         <nav>
+        		
+         </nav>
+      </div>
+        <main>
+          <script type="text/javascript" src="email_backup.js"></script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+          <script type="text/javascript">
+            (function() {
+                // https://dashboard.emailjs.com/admin/account
+                emailjs.init('JTeSPyUT-yfQxkN1J');
+            })();</script>
+          <div id="head">
+            <p>Some examples of physical barriers to report include:</p>
+            <ul>
+               <li>A sidewalk area that needs a curb cut</li>
+               <li>Accessible doors closing too quickly or failing to operate</li>
+               <li>Elevator out of order</li>
+            </ul>
+         </div>
+         <div id="wrapper">
+            <div class="FormCenter">
+               <form id="report_form" method="post" onsubmit="return confirm('Your report has been submitted. Please reset the form to make another submission.');">
+                 <label for="name">Name: </label><br>
+                 <input type="text" id="name" name="name"><br>
+                 <label for="email">Email: </label><br>
+                 <input type="email" id="email" name="email"><br><br>
+                 <label for="building">Which building: </label>
+                  <select id="building" name="building">
+                     <option value="Adams Alumni Center (AAC)">Adams Alumni Center </option>
+                     <option value="Allen Fieldhouse (AL)">Allen Fieldhouse </option>
+                     <option value="Allen Fieldhouse Parking Garage">Allen Fieldhouse Parking Garage</option>
+                     <option value="Anderson Family Football Complex (AFFC)">Anderson Family Football Complex </option>
+                     <option value="Anderson Family Strength & Conditioning Center (AFC)">Anderson Family Strength & Conditioning Center </option>
+                     <option value="Anschutz Library (ANSL)">Anschutz Library </option>
+                     <option value="Anschutz Sports Pavillon (ANSP)">Anschutz Sports Pavillon </option>
+                     <option value="Art & Design Building (A&D)">Art & Design Building </option>
+                     <option value="Baehr Audio-Reader Center (BAHR)">Baehr Audio-Reader Center </option>
+                     <option value="Bailey Hall (BA)">Bailey Hall </option>
+                     <option value="Bales Organ Recital Hall (BRH)">Bales Organ Recital Hall </option>
+                     <option value="Battenfeld Scholarship Hall (BATT)">Battenfeld Scholarship Hall </option>
+                     <option value="Blake Hall (BL)">Blake Hall </option>
+                     <option value="Booth Family Hall of Athletics (BF)">Booth Family Hall of Athletics </option>
+                     <option value="Bridwell Botany Research Lab (BRID)">Bridwell Botany Research Lab </option>
+                     <option value="Broadcasting Hall (KPR)">Broadcasting Hall </option>
+                     <option value="Budig Hall (BUD)">Budig Hall </option>
+                     <option value="Burge Union (BURU)">Burge Union </option>
+                     <option value="Burt Hall (BURT)">Burt Hall </option>
+                     <option value="Carruth-O'Leary Hall (C-O)">Carruth-O'Leary Hall </option>
+                     <option value="Chamney House (CHAM)">Chamney House </option>
+                     <option value="Chancellor's Residence (CR)">Chancellor's Residence </option>
+                     <option value="Computer Services Facility (COMP)">Computer Services Facility </option>
+                     <option value="Continuing Education Building (CONT)">Continuing Education Building </option>
+                     <option value="Corbin Residence Hall (COR)">Corbin Residence Hall </option>
+                     <option value="Crawford Community Center (CRAW)">Crawford Community Center </option>
+                     <option value="Danforth Chapel (DANF)">Danforth Chapel </option>
+                     <option value="David A. Ambler Student Recreation Fitness Center (SRFC)">David A. Ambler Student Recreation Fitness Center </option>
+                     <option value="Dennis E. Rieger Scholarship Hall (RIEG)">Dennis E. Rieger Scholarship Hall </option>
+                     <option value="Dole Human Development Center (DHDC)">Dole Human Development Center </option>
+                     <option value="Douthart Scholarship Hall (DOUT)">Douthart Scholarship Hall </option>
+                     <option value="Dyche Hall / Natural History Museum (DYCH)">Dyche Hall / Natural History Museum </option>
+                     <option value="Eaton Hall (EATN)">Eaton Hall </option>
+                     <option value="Ekdahl Dining Commons (EKD)">Ekdahl Dining Commons </option>
+                     <option value="Ellsworth Residence Hall (ELLS)">Ellsworth Residence Hall </option>
+                     <option value="Facilities Operations (FOB)">Facilities Operations </option>
+                     <option value="FO Construction & Landscape (FOCL)">FO Construction & Landscape </option>
+                     <option value="FO Vehicle Maintenance / Motor Pool (FOV)">FO Vehicle Maintenance / Motor Pool </option>
+                     <option value="FO Warehouse & Offices (FOW)">FO Warehouse & Offices </option>
+                     <option value="Foley Hall (FOLEY)">Foley Hall </option>
+                     <option value="Fraser Hall (FR)">Fraser Hall </option>
+                     <option value="Gertrude Sellards Pearson Residence Hall (GSP)">Gertrude Sellards Pearson Residence Hall </option>
+                     <option value="Grace Pearson Scholarship Hall (GPH)">Grace Pearson Scholarship Hall </option>
+                     <option value="Green Hall (GRN)">Green Hall </option>
+                     <option value="Hall Center for Humanities (HALL)">Hall Center for Humanities </option>
+                     <option value="Hambleton Hall (HAM)">Hambleton Hall </option>
+                     <option value="Hashinger Residence Hall (HASH)">Hashinger Residence Hall </option>
+                     <option value="Haworth Hall / Stewart Children's Center (HAW)">Haworth Hall / Stewart Children's Center </option>
+                     <option value="Higuchi Hall (HIGU)">Higuchi Hall </option>
+                     <option value="Hilltop Child Development Center (HILTP)">Hilltop Child Development Center </option>
+                     <option value="Horejisi Family Athletics Center (HORE)">Horejisi Family Athletics Center </option>
+                     <option value="Housing Maintenance Warehouse (HMS)">Housing Maintenance Warehouse </option>
+                     <option value="International House (IH)">International House </option>
+                     <option value="Jayhawker Towers Apartments (JAYT)">Jayhawker Towers Apartments </option>
+                     <option value="Joseph R. Pearson Hall (JRP)">Joseph R. Pearson Hall </option>
+                     <option value="K.K. Alumni Scholarship Hall (KKAH)">K.K. Alumni Scholarship Hall </option>
+                     <option value="Kansan Union (U)">Kansan Union </option>
+                     <option value="Krehbiel Scholarship Hall (KREH)">Krehbiel Scholarship Hall </option>
+                     <option value="KU Endowment Association Bulding (KUEA)">KU Endowment Association Bulding </option>
+                     <option value="Kurata Thermodynamics Laboratories (KTL)">Kurata Thermodynamics Laboratories </option>
+                     <option value="Learned Hall (LEA)">Learned Hall </option>
+                     <option value="Lewis Residence Hall (LEW)">Lewis Residence Hall </option>
+                     <option value="Library Annex (LIBX)">Library Annex </option>
+                     <option value="Lied Center (LIED)">Lied Center </option>
+                     <option value="Life Sciences Research Laboratories (LSRL)">Life Sciences Research Laboratories </option>
+                     <option value="Lindley Hall (LIN)">Lindley Hall </option>
+                     <option value="Lippincott Hall (LIPP)">Lippincott Hall </option>
+                     <option value="Malott Hall (MAL)">Malott Hall </option>
+                     <option value="Margaret Amini Scholarship Hall (MAH)">Margaret Amini Scholarship Hall </option>
+                     <option value="Marvin Hall (MAR)">Marvin Hall </option>
+                     <option value="Marvin Studios (MARS)">Marvin Studios </option>
+                     <option value="Max Kade Center (KADE)">Max Kade Center </option>
+                     <option value="McCollum Labratories (MCL)">McCollum Labratories </option>
+                     <option value="McCollum Residence Hall (MCH)">McCollum Residence Hall </option>
+                     <option value="Memorial Companile (CAMP)">Memorial Companile </option>
+                     <option value="Military Science Building (MS)">Military Science Building </option>
+                     <option value="Miller Scholarship Hall (MILL)">Miller Scholarship Hall </option>
+                     <option value="Mississippi Street Parking Garage">Mississippi Street Parking Garage</option>
+                     <option value="Moore Hall (MOOR)">Moore Hall </option>
+                     <option value="Multidisciplinary Research Building (MRB)">Multidisciplinary Research Building </option>
+                     <option value="Murphy Hall / Crafton-Preyer Theatre (MUR)">Murphy Hall / Crafton-Preyer Theatre </option>
+                     <option value="Nichols Hall (NIC)">Nichols Hall </option>
+                     <option value="Nunemaker Center (NUN)">Nunemaker Center </option>
+                     <option value="Oldfather Studios (OLDF)">Oldfather Studios </option>
+                     <option value="Oliver Residence Hall (OLV)">Oliver Residence Hall </option>
+                     <option value="Parker Hall / Kansas Geoligcal Survey (PAR)">Parker Hall / Kansas Geoligcal Survey </option>
+                     <option value="Parrott Athletic Center (PARR)">Parrott Athletic Center </option>
+                     <option value="Pearson Scholarship Hall (PEAR)">Pearson Scholarship Hall </option>
+                     <option value="Pharmaceutical Chemistry Laboratories (PCL)">Pharmaceutical Chemistry Laboratories </option>
+                     <option value="Public Safety Building (PSB)">Public Safety Building </option>
+                     <option value="Robert J. Dole Institute of Politics (DOLEI)">Robert J. Dole Institute of Politics </option>
+                     <option value="Robinson Health & Physical Education Center (ROB)">Robinson Health & Physical Education Center </option>
+                     <option value="Sabitini Multicultural Resource Center (SMRC)">Sabitini Multicultural Resource Center </option>
+                     <option value="Sellards Scholarship Hall (SELL)">Sellards Scholarship Hall </option>
+                     <option value="Shaffer-Hollad Strength Center (S-H)">Shaffer-Hollad Strength Center </option>
+                     <option value="Simons Biosciences Research Laboratories (SBIO)">Simons Biosciences Research Laboratories </option>
+                     <option value="Smissman Research Laboratories (SMSS)">Smissman Research Laboratories </option>
+                     <option value="Smith Hall (SMI)">Smith Hall </option>
+                     <option value="Snow Hall (SNOW)">Snow Hall </option>
+                     <option value="Spahr Engineering Library (SPHR)">Spahr Engineering Library </option>
+                     <option value="Spencer Museum od Art (SMA)">Spencer Museum od Art </option>
+                     <option value="Spenser Research Library (SRL)">Spenser Research Library </option>
+                     <option value="Spooner Hall (SPHR)">Spooner Hall </option>
+                     <option value="Sprague Apartments (SPRG)">Sprague Apartments </option>
+                     <option value="Stadium Memorial / Kivisto Field (MEMS)">Stadium Memorial / Kivisto Field </option>
+                     <option value="Stauffer-Flint Hall (ST-F)">Stauffer-Flint Hall </option>
+                     <option value="Stephenson Scholarship Hall (STEP)">Stephenson Scholarship Hall </option>
+                     <option value="Stouffer Place Apartments (STOU)">Stouffer Place Apartments </option>
+                     <option value="Strong Hall (ST)">Strong Hall </option>
+                     <option value="Structural Biology Center (SBC)">Structural Biology Center </option>
+                     <option value="Sudler Annex (SUDX)">Sudler Annex </option>
+                     <option value="Summerfield Hall (SUM)">Summerfield Hall </option>
+                     <option value="Sunflower Apartments (SUNF)">Sunflower Apartments </option>
+                     <option value="Templin Residence Hall (TEMP)">Templin Residence Hall </option>
+                     <option value="Twente Hall (TWE)">Twente Hall </option>
+                     <option value="University Press Offices (UPKS)">University Press Offices </option>
+                     <option value="University Press Warehouse (UPW)">University Press Warehouse </option>
+                     <option value="Visitor Center (KUVC)">Visitor Center </option>
+                     <option value="Wagnon Student Athlete Center (WSAC)">Wagnon Student Athlete Center </option>
+                     <option value="Wakarusa Research Facility (WAKA)">Wakarusa Research Facility </option>
+                     <option value="Watkins Home (WATH)">Watkins Home </option>
+                     <option value="Watkins Memorial Health Center (WMHC)">Watkins Memorial Health Center </option>
+                     <option value="Watkins Scholarship Hall (WATK)">Watkins Scholarship Hall </option>
+                     <option value="Watson Library (WATS)">Watson Library </option>
+                     <option value="Wescoe Hall (WES)">Wescoe Hall </option>
+                     <option value="Wesley Building / University Relations (WESL)">Wesley Building / University Relations </option>
+                     <option value="Youngberg Hall / Center for Research Inc. (YOUN)">Youngberg Hall / Center for Research Inc. </option>
+                  </select><br>
+                  <p>Is the barrier indoors or outdoors?</p>
+                  <input type="radio" id="inorout" name="inorout" value="inside">
+                  <label for="inside">Inside</label><br>
+                  <input type="radio" id="inorout" name="inorout" value="outside">
+                  <label for="outside">Outside</label><br><br>
+                  <label for="loc">Provide any details you can about the location and the type of issue:</label><br>
+                  <textarea rows="10" cols="30" id="loc" name="loc" maxlength="300"></textarea><br>
+                  <input type="submit" value="Submit"><br><br>
+                  <input type="reset">
+               </form>
+            </div>
+         </main>
+         <footer>
+           Copyright &copy; 2023 The University of Kansas<br>
+         </footer>
+   </body>
+</html>
