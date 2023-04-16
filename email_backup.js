@@ -16,7 +16,7 @@ window.onload = function() {
 
         emailjs.sendForm('service_rae4fbc', 'template_ufyro17', this)
             .then(function() {
-                location.replace("https://ltracy97.github.io/KUAccess/Index.html");
+                location.replace("https://ltracy97.github.io/Confirm.html");
             }, function(error) {
                 window.alert('FAILED...', );
             });
